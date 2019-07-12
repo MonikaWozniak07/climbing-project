@@ -1,10 +1,13 @@
 div.footer {
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.5;
-  height: 40px;
-  padding: 8px;
+  padding: 2%;
   max-width: 90%;
   text-align: center;
-  margin: 0 5% 0 5%;
-  color: #444;
+  margin: 5% 5% 0 5%;
+  color: white;
+  background-color: #444;
+  position: relative;
+  left: 0;
+  right: 0;
 }

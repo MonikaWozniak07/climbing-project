@@ -1,3 +1,23 @@
+div.koszyk {
+  display: flex;
+  flex-direction: row;
+  margin: 10% 10%;
+  line-height: 10%;
+  text-transform: uppercase;
+}
+div.koszyk input {
+  margin: -2% 3%;
+}
+div.koszyk button {
+  margin-top: -5%;
+  position: relative;
+  right: -20%;
+  text-transform: uppercase;
+}
+div.koszyk button:hover {
+  border-color: orangered;
+}
+
 div.wrapper {
   display: flex;
   flex-direction: row;
@@ -23,7 +43,7 @@ div.products {
 div.products img {
   overflow: hidden;
   margin: 0 auto;
-  max-width: 70%;
+  max-width: 60%;
 }
 
 div.products h2 {
@@ -31,4 +51,13 @@ div.products h2 {
 }
 div.products p {
   font-size: 14px;
+}
+div.products button {
+  margin-top: 3%;
+  text-transform: uppercase;
+  max-width: 60%;
+}
+span {
+  line-height: 1.5;
+  margin: 0 5%;
 }
