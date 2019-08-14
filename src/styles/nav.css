@@ -27,3 +27,20 @@ li a.active {
 li a:hover {
   border-color: orangered;
 }
+@media (orientation: portrait) {
+  li {
+    margin-bottom: 10%;
+  }
+  li a {
+    font-size: 12px;
+  }
+  li a.active {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1024px) {
+  li a {
+    font-size: 18px;
+  }
+}

@@ -18,32 +18,21 @@ class Store extends React.Component {
   };
 
   render() {
-    const {
-      buty,
-      hamak,
-      kask,
-      prz,
-      lina,
-      uprząż,
-      price
-      // active,
-      // value
-    } = this.state;
-
-    this.handleSubmit = e => {
-      e.preventDefault();
-    };
+    const { buty, hamak, kask, prz, lina, uprząż, price } = this.state;
 
     this.handleRemove = () => {
       this.setState({
         price: "0"
       });
+      if (price > 0) {
+        alert("Dziękujemy za dokonanie opłaty");
+      }
     };
 
     return (
       <>
         <div className="koszyk">
-          <form onSubmit={this.handleSubmit}>
+          <form>
             <input value={`Do zapłaty: ${price} zł`} />
           </form>
           <button onClick={this.handleRemove}>Płacę</button>
@@ -61,7 +50,7 @@ class Store extends React.Component {
               wspinaczkę.{" "}
             </p>
             <button
-              onClick={val =>
+              onClick={() =>
                 this.setState({
                   price: parseInt(price) + parseInt(buty)
                 })
@@ -69,9 +58,6 @@ class Store extends React.Component {
             >
               Dodaj do koszyka
             </button>{" "}
-            {/* {price === buty && (
-              <button onClick={this.handleRemoveShoes}> - </button>
-            )} */}
           </div>
           <div className="products">
             <img src={img3} alt="hamak" />
@@ -86,9 +72,6 @@ class Store extends React.Component {
             >
               Dodaj do koszyka
             </button>{" "}
-            {/* {price === hamak && (
-              <button onClick={this.handleRemove}> - </button>
-            )} */}
           </div>
           <div className="products">
             <img src={img4} alt="kask" />
@@ -103,9 +86,6 @@ class Store extends React.Component {
             >
               Dodaj do koszyka
             </button>{" "}
-            {/* {active === true && (
-              <button onClick={this.handleRemove}> - </button>
-            )} */}
           </div>
           <div className="products">
             <img src={img5} alt="przyrząd asekuracyjny" />
@@ -120,9 +100,6 @@ class Store extends React.Component {
             >
               Dodaj do koszyka
             </button>{" "}
-            {/* {active === true && (
-              <button onClick={this.handleRemove}> - </button>
-            )} */}
           </div>
           <div className="products">
             <img src={img7} alt="lina" />
@@ -139,9 +116,6 @@ class Store extends React.Component {
             >
               Dodaj do koszyka
             </button>{" "}
-            {/* {active === true && (
-              <button onClick={this.handleRemove}> - </button>
-            )} */}
           </div>
           <div className="products">
             <img src={img8} alt="uprząż" />
@@ -156,9 +130,6 @@ class Store extends React.Component {
             >
               Dodaj do koszyka
             </button>{" "}
-            {/* {active === true && (
-              <button onClick={this.handleRemove}> - </button>
-            )} */}
           </div>
         </div>
       </>
