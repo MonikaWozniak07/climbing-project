@@ -54,6 +54,7 @@ class Store extends React.Component {
                 this.setState({
                   price: parseInt(price) + parseInt(buty)
                 })
+      
               }
             >
               Dodaj do koszyka
