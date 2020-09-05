@@ -8,3 +8,22 @@ div.wrapperek {
   position: relative;
   text-align: center;
 }
+.fa-chevron-down {
+  display: none;
+}
+@media (min-width: 1024px) and (orientation: landscape) {
+  .fa-chevron-down {
+    position: absolute;
+    left: 50%;
+    top: 90vh;
+    transform: translateX(-50%);
+    display: block;
+    color: #eee;
+    font-size: 3em;
+    cursor: pointer;
+    z-index: 99999;
+  }
+  .fa-chevron-down:hover {
+    font-size: 4em;
+  }
+}

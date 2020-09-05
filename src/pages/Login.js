@@ -86,7 +86,7 @@ class Login extends Component {
               <label htmlFor="firstName">Imię</label>
               <input
                 className={formValues.firstName.length > 0 ? "error" : null}
-                placeholder="Imię"
+                placeholder=""
                 name="firstName"
                 type="text"
                 noValidate
@@ -100,7 +100,7 @@ class Login extends Component {
               <label htmlFor="lastName">Nazwisko</label>
               <input
                 className={formValues.lastName.length > 0 ? "error" : null}
-                placeholder="Nazwisko"
+                placeholder=""
                 name="lastName"
                 type="text"
                 noValidate
@@ -114,7 +114,7 @@ class Login extends Component {
               <label htmlFor="email">Email</label>
               <input
                 className={formValues.email.length > 0 ? "error" : null}
-                placeholder="email"
+                placeholder=""
                 name="email"
                 type="email"
                 noValidate
@@ -128,7 +128,7 @@ class Login extends Component {
               <label htmlFor="password">Hasło</label>
               <input
                 className={formValues.password.length > 0 ? "error" : null}
-                placeholder="hasło"
+                placeholder=""
                 name="password"
                 type="password"
                 noValidate
