@@ -6,6 +6,7 @@ import img4 from "../img/kask.jpg";
 import img5 from "../img/przyrzad-as.jpg";
 import img7 from "../img/rope.jpg";
 import img8 from "../img/uprząż.jpg";
+
 class Store extends React.Component {
   state = {
     buty: 199,
@@ -14,7 +15,7 @@ class Store extends React.Component {
     prz: 49,
     lina: 389,
     uprząż: 189,
-    price: "0"
+    price: "0",
   };
 
   render() {
@@ -22,25 +23,34 @@ class Store extends React.Component {
 
     this.handleRemove = () => {
       this.setState({
-        price: "0"
+        price: "0",
       });
       if (price > 0) {
         alert("Dziękujemy za dokonanie opłaty");
+      } else {
+        alert("Twój koszyk jest pusty");
       }
     };
-
     return (
       <>
         <div className="koszyk">
-          <form>
+          <span className="koszyk-text">
+            Zachęcamy do zakupów w naszym sklepie. Do wyboru mają państwo
+            produkty najwyższej klasy. Najważniejszy dla nas jest komfort
+            klienta.
+          </span>
+          {/* <form>
             <input value={`Do zapłaty: ${price} zł`} />
-          </form>
-          <button onClick={this.handleRemove}>Płacę</button>
+          </form> */}
+          {/* <button onClick={this.handleRemove}>Płacę</button> */}
+          <div className="shopping-cart">
+            <i onSubmit={this.handleCard} class="fas fa-shopping-cart"></i>
+            <p>Koszyk: {price} zł</p>
+            <div onClick={this.handleRemove} className="shopping-cart_btn">
+              <p>DO KASY</p>
+            </div>
+          </div>
         </div>
-        <span>
-          Zachęcamy do zakupów w naszym sklepie. Do wyboru mają państwo produkty
-          najwyższej klasy. Najważniejszy dla nas jest komfort klienta.
-        </span>
         <div className="wrapper">
           <div className="products">
             <img src={img1} alt="buty wspinaczkowe" />
@@ -52,9 +62,8 @@ class Store extends React.Component {
             <button
               onClick={() =>
                 this.setState({
-                  price: parseInt(price) + parseInt(buty)
+                  price: parseInt(price) + parseInt(buty),
                 })
-      
               }
             >
               Dodaj do koszyka
@@ -67,7 +76,7 @@ class Store extends React.Component {
             <button
               onClick={() =>
                 this.setState({
-                  price: parseInt(price) + parseInt(hamak)
+                  price: parseInt(price) + parseInt(hamak),
                 })
               }
             >
@@ -81,7 +90,7 @@ class Store extends React.Component {
             <button
               onClick={() =>
                 this.setState({
-                  price: parseInt(price) + parseInt(kask)
+                  price: parseInt(price) + parseInt(kask),
                 })
               }
             >
@@ -95,7 +104,7 @@ class Store extends React.Component {
             <button
               onClick={() =>
                 this.setState({
-                  price: parseInt(price) + parseInt(prz)
+                  price: parseInt(price) + parseInt(prz),
                 })
               }
             >
@@ -111,7 +120,7 @@ class Store extends React.Component {
             <button
               onClick={() =>
                 this.setState({
-                  price: parseInt(price) + parseInt(lina)
+                  price: parseInt(price) + parseInt(lina),
                 })
               }
             >
@@ -125,7 +134,7 @@ class Store extends React.Component {
             <button
               onClick={() =>
                 this.setState({
-                  price: parseInt(price) + parseInt(uprząż)
+                  price: parseInt(price) + parseInt(uprząż),
                 })
               }
             >

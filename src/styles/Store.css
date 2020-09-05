@@ -7,7 +7,6 @@ div.koszyk {
 }
 div.koszyk input {
   margin: -2% 3%;
-
   border-color: transparent;
 }
 div.koszyk button {
@@ -19,7 +18,26 @@ div.koszyk button {
 div.koszyk button:hover {
   border-color: orangered;
 }
-
+div.koszyk span {
+  max-width: 50%;
+}
+div.koszyk i {
+  font-size: 2em;
+  cursor: pointer;
+}
+div.koszyk i.active {
+  color: orangered;
+}
+div.koszyk .shopping-cart_btn {
+  border: 2px solid #333;
+}
+div.koszyk .shopping-cart_btn:hover {
+  border-color: orangered;
+  cursor: pointer;
+}
+div.koszyk .shopping-cart_btn:hover p {
+  font-weight: bold;
+}
 div.wrapper {
   display: flex;
   flex-direction: row;

@@ -1,0 +1,21 @@
+.form-wrapper {
+  margin-top: 5%;
+  padding: 5%;
+  box-shadow: 1px 1px 8px #888888;
+  max-width: 50vw;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+@media (min-width: 1024px) {
+  .form-wrapper {
+    max-width: 25vw;
+    display: flex;
+  }
+}
+button.login_btn {
+  margin-top: 25%;
+  max-width: 50vw;
+  text-transform: uppercase;
+  font-weight: bold;
+}

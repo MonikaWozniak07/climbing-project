@@ -1,5 +1,5 @@
 div {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #222;
   display: flex;
   flex-direction: column;
@@ -11,12 +11,22 @@ h2 {
 form {
   display: flex;
   flex-direction: column;
+  width: 15vw;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
 }
-
+label {
+  padding: 5%;
+  line-height: 2;
+}
 textarea {
   min-height: 200px;
-  width: 50%;
-  margin: 2% auto;
+  min-width: 20vw;
+  margin-bottom: 10%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
 }
 button {
   max-width: 30%;
@@ -34,5 +44,4 @@ button span {
 }
 button:hover {
   border-color: orangered;
-  padding: 20px;
 }

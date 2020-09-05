@@ -6,7 +6,8 @@ class Footer extends React.Component {
     return (
       <>
         <div className="footer">
-          <p>Strona Sklep_górski </p>
+          <p>Copyright 2020 Sklep wspinaczkowy </p>
+          <span>Developed with ❤ by Monika Woźniak</span>
         </div>
       </>
     );
