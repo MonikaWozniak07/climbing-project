@@ -35,14 +35,8 @@ class Store extends React.Component {
       <>
         <div className="koszyk">
           <span className="koszyk-text">
-            Zachęcamy do zakupów w naszym sklepie. Do wyboru mają państwo
-            produkty najwyższej klasy. Najważniejszy dla nas jest komfort
-            klienta.
+            Zachęcamy do zakupów w naszym sklepie.
           </span>
-          {/* <form>
-            <input value={`Do zapłaty: ${price} zł`} />
-          </form> */}
-          {/* <button onClick={this.handleRemove}>Płacę</button> */}
           <div className="shopping-cart">
             <i onSubmit={this.handleCard} class="fas fa-shopping-cart"></i>
             <p>Koszyk: {price} zł</p>

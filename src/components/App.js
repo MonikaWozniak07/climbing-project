@@ -5,15 +5,8 @@ import Footer from "./Footer";
 import Navigation from "./Navigation";
 import Page from "./Page";
 import { BrowserRouter as Router } from "react-router-dom";
-import * as Scroll from "react-scroll";
-import {
-  Link,
-  Element,
-  Events,
-  animateScroll as scroll,
-  scrollSpy,
-  scroller,
-} from "react-scroll";
+import logo from "../img/logo_transparent.png";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 class App extends React.Component {
   state = {};

@@ -31,7 +31,7 @@ p {
   text-align: left;
   margin: 1%;
   margin-left: 20%;
-  line-height: 1.5;
+  line-height: 2;
 }
 .contact i {
   font-size: 1.5em;
@@ -53,5 +53,13 @@ p {
   p {
     font-size: 18px;
     line-height: 1.7;
+  }
+}
+@media (max-width: 568px) {
+  .home {
+    max-width: 90vw;
+  }
+  .contact a {
+    margin-left: 5%;
   }
 }
