@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/climbing-project/static/css/main.03829e5c.chunk.css",
+    "main.js": "/climbing-project/static/js/main.ffab5919.chunk.js",
+    "main.js.map": "/climbing-project/static/js/main.ffab5919.chunk.js.map",
+    "runtime~main.js": "/climbing-project/static/js/runtime~main.b98f17a2.js",
+    "runtime~main.js.map": "/climbing-project/static/js/runtime~main.b98f17a2.js.map",
+    "static/js/2.a120e3a7.chunk.js": "/climbing-project/static/js/2.a120e3a7.chunk.js",
+    "static/js/2.a120e3a7.chunk.js.map": "/climbing-project/static/js/2.a120e3a7.chunk.js.map",
+    "index.html": "/climbing-project/index.html",
+    "precache-manifest.cabb33a9b0eea8d55c67af29fe3c305a.js": "/climbing-project/precache-manifest.cabb33a9b0eea8d55c67af29fe3c305a.js",
+    "service-worker.js": "/climbing-project/service-worker.js",
+    "static/css/main.03829e5c.chunk.css.map": "/climbing-project/static/css/main.03829e5c.chunk.css.map",
+    "static/media/Rock Climbing - 925.mp4": "/climbing-project/static/media/Rock Climbing - 925.0c206063.mp4",
+    "static/media/hamak.jpg": "/climbing-project/static/media/hamak.aed53ef3.jpg",
+    "static/media/kask.jpg": "/climbing-project/static/media/kask.6f31f3da.jpg",
+    "static/media/logo_transparent.png": "/climbing-project/static/media/logo_transparent.d5397430.png",
+    "static/media/przyrzad-as.jpg": "/climbing-project/static/media/przyrzad-as.0db473e6.jpg",
+    "static/media/rope.jpg": "/climbing-project/static/media/rope.dd658db1.jpg",
+    "static/media/shoes.jpg": "/climbing-project/static/media/shoes.92b7953a.jpg",
+    "static/media/uprząż.jpg": "/climbing-project/static/media/uprząż.ef1bf2b8.jpg"
+  }
+}
