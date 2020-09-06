@@ -15,7 +15,7 @@ div.wrapperek {
   .fa-chevron-down {
     position: absolute;
     left: 50%;
-    top: 90vh;
+    top: 75vh;
     transform: translateX(-50%);
     display: block;
     color: #eee;

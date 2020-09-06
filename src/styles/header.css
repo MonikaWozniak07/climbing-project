@@ -1,3 +1,4 @@
 .climbVideo {
-  width: 100vw;
+  width: 100%;
+  margin-top: -15vh;
 }
