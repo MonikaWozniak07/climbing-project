@@ -49,10 +49,6 @@ class Store extends React.Component {
           <div className="products">
             <img src={img1} alt="buty wspinaczkowe" />
             <h2>Buty wspinaczkowe 199 zł</h2>
-            <p>
-              Niezbętnik dla wszystkich wspinaczy. Zapewniają komfortową
-              wspinaczkę.{" "}
-            </p>
             <button
               onClick={() =>
                 this.setState({
@@ -66,7 +62,6 @@ class Store extends React.Component {
           <div className="products">
             <img src={img3} alt="hamak" />
             <h2>Hamak 79 zł</h2>
-            <p>Superwygodny i wytrzymały. Nigdzie kawa nie smakuje lepiej ;)</p>
             <button
               onClick={() =>
                 this.setState({
@@ -80,7 +75,6 @@ class Store extends React.Component {
           <div className="products">
             <img src={img4} alt="kask" />
             <h2>Kask 109 zł</h2>
-            <p>Dbajmy o swoje bezpieczeństwo. Wspinajmy się w kasku!</p>
             <button
               onClick={() =>
                 this.setState({
@@ -94,7 +88,6 @@ class Store extends React.Component {
           <div className="products">
             <img src={img5} alt="przyrząd asekuracyjny" />
             <h2>Przyrząd asekuracyjny 49 zł</h2>
-            <p>Niezawodny przyrząd asekuracyjny.</p>
             <button
               onClick={() =>
                 this.setState({
@@ -108,9 +101,6 @@ class Store extends React.Component {
           <div className="products">
             <img src={img7} alt="lina" />
             <h2>Lina 389 zł</h2>
-            <p>
-              Lina statyczna, doskonała do wspinaczki oraz pracy na wysokości.
-            </p>
             <button
               onClick={() =>
                 this.setState({
@@ -124,7 +114,6 @@ class Store extends React.Component {
           <div className="products">
             <img src={img8} alt="uprząż" />
             <h2>Uprząż 189 zł</h2>
-            <p>Wygodna i wytrzymała.</p>
             <button
               onClick={() =>
                 this.setState({
