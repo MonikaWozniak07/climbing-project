@@ -6,6 +6,7 @@ div.koszyk {
   margin: 10% 10%;
   line-height: 10%;
   text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
 }
 div.koszyk input {
   margin: -2% 3%;
@@ -32,7 +33,7 @@ div.koszyk .shopping-cart_btn {
   border: 2px solid #333;
 }
 div.koszyk .shopping-cart_btn:hover {
-  border-color: orangered;
+  font-weight: bold;
   cursor: pointer;
 }
 div.koszyk .shopping-cart_btn:hover p {
@@ -44,6 +45,7 @@ div.wrapper {
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 0 10% 0 10%;
+  font-family: "Roboto", sans-serif;
 }
 
 div.products {
@@ -72,9 +74,18 @@ div.products p {
   font-size: 14px;
 }
 div.products button {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
   margin-top: 3%;
   text-transform: uppercase;
-  max-width: 60%;
+  max-width: 40%;
+  background-color: transparent;
+  padding: 1%;
+  cursor: pointer;
+}
+div.products button:hover {
+  font-weight: bold;
 }
 span {
   line-height: 1.5;

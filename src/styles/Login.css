@@ -1,4 +1,5 @@
 .form-wrapper {
+  display: flex;
   margin-top: 5%;
   padding: 5%;
   box-shadow: 1px 1px 8px #888888;
@@ -6,12 +7,23 @@
   position: relative;
   left: 50%;
   transform: translateX(-50%);
+  font-family: "Roboto", sans-serif;
+}
+h1 {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
 }
 form {
   width: 90%;
+  position: relative;
+  top: 8vh;
+  text-align: left;
 }
 label {
-  text-align: left;
+  margin-left: 4%;
+  width: 90%;
 }
 input {
   position: relative;
@@ -21,6 +33,8 @@ input {
   border-bottom: 1px solid #888888;
   width: 90%;
   padding-bottom: 3%;
+  margin-bottom: 10%;
+  line-height: 2;
 }
 @media (min-width: 320px) and (orientation: portrait) {
   .form-wrapper {
@@ -38,8 +52,14 @@ input {
 }
 
 button.login_btn {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
   margin-top: 25%;
+  margin-bottom: 18%;
   max-width: 50vw;
   text-transform: uppercase;
   font-weight: bold;
+  border: none;
+  cursor: pointer;
 }

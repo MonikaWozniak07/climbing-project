@@ -5,7 +5,6 @@ import Footer from "./Footer";
 import Navigation from "./Navigation";
 import Page from "./Page";
 import { BrowserRouter as Router } from "react-router-dom";
-import logo from "../img/logo_transparent.png";
 import { Link, animateScroll as scroll } from "react-scroll";
 
 class App extends React.Component {
