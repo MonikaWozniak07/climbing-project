@@ -18,6 +18,9 @@ p {
   margin: 3% 13% 0 13%;
   line-height: 1.5;
 }
+.home-text {
+  text-align: left;
+}
 .contact {
   padding: 5%;
 }

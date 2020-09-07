@@ -5,7 +5,7 @@ const HomePage = () => {
     <>
       <div className="home">
         <h2>O sklepie</h2>
-        <p>
+        <p className="home-text">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti ab
           aut officiis cupiditate. Est ipsum at veritatis iure temporibus,
           inventore, corporis voluptatibus qui laboriosam vero architecto,
