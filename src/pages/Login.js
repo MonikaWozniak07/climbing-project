@@ -54,20 +54,18 @@ class Login extends Component {
     switch (name) {
       case "firstName":
         formValues.firstName =
-          value.length < 3 ? "minimum 3 characaters required" : "";
+          value.length < 3 ? "minimum 3 znaki wymagane" : "";
         break;
       case "lastName":
         formValues.lastName =
-          value.length < 3 ? "minimum 3 characaters required" : "";
+          value.length < 3 ? "minimum 3 znaki wymagane" : "";
         break;
       case "email":
-        formValues.email = emailRegex.test(value)
-          ? ""
-          : "invalid email address";
+        formValues.email = emailRegex.test(value) ? "" : "błedny email";
         break;
       case "password":
         formValues.password =
-          value.length < 6 ? "minimum 6 characaters required" : "";
+          value.length < 6 ? "minimum 6 znaków wymagane" : "";
         break;
       default:
         break;
